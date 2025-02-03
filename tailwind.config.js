@@ -1,6 +1,6 @@
-import type {Config} from "tailwindcss";
-
-const config: Config = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var config = {
     darkMode: ["class"],
     content: [
         "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,7 +8,6 @@ const config: Config = {
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
         "./sanity/**/*.{js,ts,jsx,tsx,mdx}",
     ],
-    
     theme: {
         extend: {
             screens: {
@@ -48,5 +47,4 @@ const config: Config = {
     },
     plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 };
-
-export default config;
+exports.default = config;

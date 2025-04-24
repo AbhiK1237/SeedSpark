@@ -1,6 +1,6 @@
 # 💡 SeedSpark
 
-![SeedSpark Logo](./assets/seed-spark-logo.png)
+![SeedSpark Logo](./assets/seedspark.png)
 
 **SeedSpark is a platform designed to allow startups to pitch their ideas, providing them with an online space to present their startup concept, engage with potential investors, and get feedback. The application streamlines the process of showcasing startup ideas through an easy-to-use web interface built using Next.js, Sanity CMS, and Tailwind CSS. Entrepreneurs can submit their startup pitches, and interested parties can explore the ideas and offer feedback, fostering collaboration and support.**
 

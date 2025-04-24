@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💡 SeedSpark
 
-## Getting Started
+![SeedSpark Logo](./assets/seed-spark-logo.png)
 
-First, run the development server:
+**SeedSpark is a platform designed to allow startups to pitch their ideas, providing them with an online space to present their startup concept, engage with potential investors, and get feedback. The application streamlines the process of showcasing startup ideas through an easy-to-use web interface built using Next.js, Sanity CMS, and Tailwind CSS. Entrepreneurs can submit their startup pitches, and interested parties can explore the ideas and offer feedback, fostering collaboration and support.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Startup Pitch Submission**: Entrepreneurs can submit their startup ideas and showcase them to a wider audience.
+- **Feedback and Engagement**: Users can leave feedback and engage with the ideas presented.
+- **Content Management**: Admins can manage the content through Sanity CMS.
+- **Responsive Design**: The platform is built using Tailwind CSS, ensuring a responsive, mobile-friendly experience.
+- **Error Monitoring**: Sentry integration helps track and fix issues in real-time.
+  
+## 🌐 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Check out the live demo of **SeedSpark**:  
+[Live Demo](https://seed-spark.vercel.app/)  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
+- **Sanity CLI** (for CMS setup)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/AbhiK1237/SeedSpark.git
+   cd SeedSpark
+   npm insatll
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Set up environment variables:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a .env.local file in the root directory and add the necessary environment variables.
+- AUTH_SECRET=
+- AUTH_GITHUB_ID=
+- AUTH_GITHUB_SECRET=
+- NEXT_PUBLIC_SANITY_PROJECT_ID=
+- NEXT_PUBLIC_SANITY_DATASET=
+- NEXT_PUBLIC_SANITY_API_VERSION=
+- SANITY_WRITE_TOKEN=
+
+Create a .env.sentry-build-plugin file, and add
+- SENTRY_AUTH_TOKEN=
+
+Run the development server:
+- npm run dev
+
+🧰 Technologies Used
+
+- Next.js
+
+- Sanity CMS
+
+- Tailwind CSS
+
+- TypeScript
+
+- Sentry
+
+
+
+🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+📫 Contact
+For any inquiries or feedback, please contact AbhiK1237.
+
+
